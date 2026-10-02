@@ -1,0 +1,49 @@
+{
+  "name": "isee",
+  "owner": {
+    "name": "Suzanne Daniels",
+    "url": "https://agentile.com"
+  },
+  "metadata": {
+    "description": "The complete ISEE plugin marketplace for GitHub Copilot CLI.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "isee-suite",
+      "description": "Install the complete ISEE operating system for Copilot: ADRP, ASRP, AERP, integration, and advisor.",
+      "version": "0.1.0",
+      "source": "plugins/isee-suite"
+    },
+    {
+      "name": "adrp",
+      "description": "Record and resolve durable, human-ratified ISEE Intent.",
+      "version": "0.1.0",
+      "source": "plugins/adrp"
+    },
+    {
+      "name": "asrp",
+      "description": "Record ISEE Structure and compile governed execution manifests.",
+      "version": "0.1.0",
+      "source": "plugins/asrp"
+    },
+    {
+      "name": "aerp",
+      "description": "Capture and verify durable ISEE Evidence.",
+      "version": "0.1.0",
+      "source": "plugins/aerp"
+    },
+    {
+      "name": "isee",
+      "description": "Project ISEE governance into Copilot and orchestrate preflight and Evidence evaluation.",
+      "version": "0.1.0",
+      "source": "plugins/isee"
+    },
+    {
+      "name": "isee-advisor",
+      "description": "Assess ISEE maturity, protocol conformance, and drift.",
+      "version": "0.4.0",
+      "source": "plugins/isee-advisor"
+    }
+  ]
+}

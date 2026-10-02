@@ -1,0 +1,23 @@
+{
+  "name": "aerp",
+  "description": "Capture and verify the Evidence layer of ISEE, bound to exact ADRP Intent records.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Suzanne Daniels",
+    "url": "https://github.com/suuus/aerp"
+  },
+  "homepage": "https://github.com/suuus/aerp",
+  "repository": "https://github.com/suuus/aerp",
+  "license": "MIT",
+  "keywords": [
+    "agents",
+    "attestations",
+    "compliance",
+    "evidence",
+    "governance",
+    "isee",
+    "provenance"
+  ],
+  "agents": ".github/agents/",
+  "skills": ".github/skills/"
+}

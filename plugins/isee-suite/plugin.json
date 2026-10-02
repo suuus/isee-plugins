@@ -1,0 +1,26 @@
+{
+  "name": "isee-suite",
+  "description": "Complete ISEE Copilot suite: Intent, Structure, Execution, Evidence, and maturity assessment.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Suzanne Daniels",
+    "url": "https://agentile.com"
+  },
+  "homepage": "https://github.com/suuus/isee-plugins",
+  "repository": "https://github.com/suuus/isee-plugins",
+  "license": "MIT",
+  "keywords": [
+    "isee",
+    "intent",
+    "structure",
+    "execution",
+    "evidence",
+    "adrp",
+    "asrp",
+    "aerp",
+    "governance",
+    "copilot"
+  ],
+  "agents": ".github/agents/",
+  "skills": ".github/skills/"
+}

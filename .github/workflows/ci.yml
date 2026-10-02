@@ -1,0 +1,27 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validate marketplace and source locks
+        run: python scripts/validate.py
+      - name: Verify bundled sources
+        run: python scripts/verify_sources.py
+      - name: Check installer plan
+        run: python scripts/install_clis.py --dry-run
+      - name: Compile Python scripts
+        run: python -m compileall -q scripts

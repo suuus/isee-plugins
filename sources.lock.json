@@ -1,0 +1,30 @@
+{
+  "schema_version": "isee-plugin-sources/v1",
+  "sources": {
+    "adrp": {
+      "repository": "https://github.com/suuus/adrp",
+      "commit": "67a451cd1111aa075fbbd933e79c74aeb764a668",
+      "version": "0.1.0"
+    },
+    "asrp": {
+      "repository": "https://github.com/suuus/asrp",
+      "commit": "1dc81f19835da7d0d2c1581369100defd12b6486",
+      "version": "0.1.0"
+    },
+    "aerp": {
+      "repository": "https://github.com/suuus/aerp",
+      "commit": "f9e6715ad49959890c149f9ccb8e87ecd1fd1c0a",
+      "version": "0.1.0"
+    },
+    "isee": {
+      "repository": "https://github.com/suuus/isee",
+      "commit": "ee5da4b2154ab7d591498976975e1faeba087002",
+      "version": "0.1.0"
+    },
+    "isee-advisor": {
+      "repository": "https://github.com/suuus/isee-advisor",
+      "commit": "391c5cf4efd0be2f5eff448db47350fb532cd4f6",
+      "version": "0.4.0"
+    }
+  }
+}
