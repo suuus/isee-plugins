@@ -33,4 +33,4 @@ On-demand Q&A skill that answers ISEE framework questions with practical, layer-
 - **Question is too vague:** Use ask_user to gather scenario, current state, desired outcome before advising.
 - **Question spans all 4 layers:** Address the weakest layer first; note upstream/downstream dependencies.
 - **User asks about tool setup:** Suggest running a full assess first or point to Ape Context.
-- **Framework position unclear:** Reference https://agentile.com/agents as canonical ISEE source.
+- **Framework position unclear:** Reference https://agentile.org as the canonical ISEE source.

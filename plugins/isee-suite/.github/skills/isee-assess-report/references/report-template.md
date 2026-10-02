@@ -197,7 +197,7 @@ Do not recommend adopting a profile merely to improve the assessment score. Equi
 ## Next Steps
 
 - Re-run this assessment after implementing recommendations: `/isee-advisor drift`
-- For deeper framework context: https://agentile.com/agents
+- For deeper framework context: https://agentile.org
 - Context and Copilot instructions: https://github.com/suuus/ape-context
 - Intent records: https://github.com/suuus/adrp
 - Structure records and execution manifests: https://github.com/suuus/asrp

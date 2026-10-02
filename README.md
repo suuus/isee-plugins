@@ -3,6 +3,9 @@
 Install the complete **Intent → Structure → Execution → Evidence** operating
 system for GitHub Copilot CLI from one repository.
 
+ISEE is the operating framework for AI-native engineering teams. Read the
+framework overview at [agentile.org](https://agentile.org).
+
 ## Installation
 
 Register the marketplace and install the complete suite:
@@ -90,12 +93,14 @@ For the full workflow, use `/agent isee`.
 
 ## Product boundaries
 
-- ADRP owns Intent.
-- ASRP owns Structure.
+- [ADRP](https://github.com/suuus/adrp) owns Intent.
+- [ASRP](https://github.com/suuus/asrp) owns Structure.
 - Execution stays external.
-- AERP owns Evidence.
-- ISEE integrates preflight, Copilot projection, and Evidence evaluation.
-- ISEE Advisor assesses maturity and conformance; it does not execute changes.
+- [AERP](https://github.com/suuus/aerp) owns Evidence.
+- [ISEE](https://github.com/suuus/isee) integrates preflight, Copilot
+  projection, and Evidence evaluation.
+- [ISEE Advisor](https://github.com/suuus/isee-advisor) assesses maturity and
+  conformance; it does not execute changes.
 
 ## Reproducibility
 

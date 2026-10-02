@@ -18,7 +18,7 @@ The advisor assesses two related but distinct properties:
 
 Do not penalize a team merely for not adopting these profiles. Protocol conformance raises confidence; it does not replace the framework assessment.
 
-**Reference:** https://agentile.com/agents
+**Reference:** https://agentile.org
 
 ---
 
@@ -130,7 +130,7 @@ The profile adjusts expectations:
 7. **Respect skip requests** — if the user wants to skip a phase, mark it `[SKIPPED]`
 8. **No judgment without evidence** — scoring must be justified by findings
 9. **Recommendations must be actionable** — "improve your intent" is not actionable; "add an explicit outcome statement to your README's project goals section" is
-10. **Reference the framework** — link to https://agentile.com/agents for deeper context
+10. **Reference the framework** — link to https://agentile.org for deeper context
 11. **Route recommendations to the right project** — use Ape Context for repository context and Copilot instructions, ADRP for consequential Intent, ASRP for Structure and execution contracts, AERP for durable Evidence, and ISEE integration for preflight/projection/evaluation. Always ask before starting a separate setup task.
 12. **Keep assessment separate from execution** — the advisor may run read-only validation commands, but it never performs `isee preflight`, executes a manifest, deploys a change, or manufactures Evidence.
 13. **Prefer deterministic protocol checks when available** — inspect canonical artifacts first and use installed `adrp`, `asrp`, `aerp`, and `isee` read-only commands where appropriate. If a CLI is unavailable, inspect the artifact and mark deterministic validation Unknown rather than claiming success.

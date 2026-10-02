@@ -76,4 +76,4 @@ Name the relevant anti-patterns from the ISEE operating contract:
 - If the question is about tool setup, identify whether it is context, Intent, Structure, Evidence, or integration before naming a project
 - If the question is about a specific layer, focus on that layer but note upstream/downstream dependencies
 - If you don't know enough to advise well, say so and ask for more context
-- Reference https://agentile.com/agents as the canonical ISEE source
+- Reference https://agentile.org as the canonical ISEE source

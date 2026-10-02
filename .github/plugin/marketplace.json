@@ -2,17 +2,17 @@
   "name": "isee",
   "owner": {
     "name": "Suzanne Daniels",
-    "url": "https://agentile.com"
+    "url": "https://agentile.org"
   },
   "metadata": {
     "description": "The complete ISEE plugin marketplace for GitHub Copilot CLI.",
-    "version": "0.1.0"
+    "version": "0.1.1"
   },
   "plugins": [
     {
       "name": "isee-suite",
       "description": "Install the complete ISEE operating system for Copilot: ADRP, ASRP, AERP, integration, and advisor.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": "plugins/isee-suite"
     },
     {
@@ -42,7 +42,7 @@
     {
       "name": "isee-advisor",
       "description": "Assess ISEE maturity, protocol conformance, and drift.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "source": "plugins/isee-advisor"
     }
   ]
