@@ -1,0 +1,28 @@
+{
+  "name": "ape-context",
+  "description": "ISEE adoption and context bootstrapper for GitHub Copilot. Discovers organizational context, configures tools, records Intent with ADRP, hands Structure to ASRP, generates instructions, and captures Evidence with AERP.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Suzanne Daniels",
+    "url": "https://github.com/suuus/ape-context"
+  },
+  "homepage": "https://github.com/suuus/ape-context",
+  "repository": "https://github.com/suuus/ape-context",
+  "license": "MIT",
+  "keywords": [
+    "enterprise",
+    "context",
+    "onboarding",
+    "mcp",
+    "copilot-instructions",
+    "isee-framework",
+    "agentile",
+    "platform-engineering",
+    "wizard",
+    "adrp",
+    "asrp",
+    "aerp"
+  ],
+  "agents": ".github/agents/",
+  "skills": ".github/skills/"
+}

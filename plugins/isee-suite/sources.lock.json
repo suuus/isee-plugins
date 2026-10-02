@@ -25,6 +25,11 @@
       "repository": "https://github.com/suuus/isee-advisor",
       "commit": "e9722ffdb5a1a595e38c82566f25e70c17c7bd8d",
       "version": "0.4.1"
+    },
+    "ape-context": {
+      "repository": "https://github.com/suuus/ape-context",
+      "commit": "27ea3560161d91997425383b11dddbe0c1e6fcb9",
+      "version": "0.1.0"
     }
   }
 }

@@ -19,6 +19,7 @@ Then select `/agent isee`.
 
 The suite includes:
 
+- `ape-context` — repository discovery and ISEE adoption bootstrap;
 - `isee` — umbrella workflow for regular Copilot sessions and agentic flows;
 - `adrp` — durable, human-ratified Intent;
 - `asrp` — Structure records and execution manifests;
@@ -41,6 +42,7 @@ copilot plugin install asrp@isee
 copilot plugin install aerp@isee
 copilot plugin install isee@isee
 copilot plugin install isee-advisor@isee
+copilot plugin install ape-context@isee
 ```
 
 Do not install `isee-suite` together with its individual component plugins;
@@ -97,6 +99,8 @@ For the full workflow, use `/agent isee`.
 - [ASRP](https://github.com/suuus/asrp) owns Structure.
 - Execution stays external.
 - [AERP](https://github.com/suuus/aerp) owns Evidence.
+- [Ape Context](https://github.com/suuus/ape-context) discovers and assembles
+  repository context, then orchestrates ADRP, ASRP, and AERP handoffs.
 - [ISEE](https://github.com/suuus/isee) integrates preflight, Copilot
   projection, and Evidence evaluation.
 - [ISEE Advisor](https://github.com/suuus/isee-advisor) assesses maturity and

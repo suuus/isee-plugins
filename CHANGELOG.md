@@ -2,6 +2,21 @@
 
 All notable changes to ISEE Plugins are documented here.
 
+## [0.2.0] - 2026-10-02
+
+### Added
+
+- Ape Context as the sixth first-class source plugin and an individual
+  `ape-context@isee` installation.
+- Ape Context's context-wizard agent and 16 adoption skills to `isee-suite`.
+- Source locking and byte-for-byte verification for the Ape Context release.
+
+### Changed
+
+- Repositioned the suite as a complete path from repository discovery and
+  adoption through ADRP Intent, ASRP Structure, external Execution, AERP
+  Evidence, integration, and assessment.
+
 ## [0.1.1] - 2026-10-02
 
 ### Changed

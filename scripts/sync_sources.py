@@ -10,7 +10,7 @@ import subprocess
 from pathlib import Path
 
 
-PROJECTS = ("adrp", "asrp", "aerp", "isee", "isee-advisor")
+PROJECTS = ("adrp", "asrp", "aerp", "isee", "isee-advisor", "ape-context")
 
 
 def run(repo: Path, *args: str) -> str:
@@ -31,7 +31,7 @@ def main() -> None:
         "--sources-root",
         type=Path,
         default=Path(__file__).resolve().parents[2],
-        help="Directory containing adrp, asrp, aerp, isee, and isee-advisor",
+        help="Directory containing the ISEE source repositories",
     )
     parser.add_argument(
         "--repository-root",

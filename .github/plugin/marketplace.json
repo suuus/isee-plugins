@@ -6,13 +6,13 @@
   },
   "metadata": {
     "description": "The complete ISEE plugin marketplace for GitHub Copilot CLI.",
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   "plugins": [
     {
       "name": "isee-suite",
-      "description": "Install the complete ISEE operating system for Copilot: ADRP, ASRP, AERP, integration, and advisor.",
-      "version": "0.1.1",
+      "description": "Install the complete ISEE operating system for Copilot: adoption, ADRP, ASRP, AERP, integration, and assessment.",
+      "version": "0.2.0",
       "source": "plugins/isee-suite"
     },
     {
@@ -44,6 +44,12 @@
       "description": "Assess ISEE maturity, protocol conformance, and drift.",
       "version": "0.4.1",
       "source": "plugins/isee-advisor"
+    },
+    {
+      "name": "ape-context",
+      "description": "Bootstrap ISEE adoption by discovering context, configuring tools, and orchestrating ADRP, ASRP, and AERP handoffs.",
+      "version": "0.1.0",
+      "source": "plugins/ape-context"
     }
   ]
 }
